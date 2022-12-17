@@ -83,7 +83,7 @@ h2 {
     }
 
     section#inicio {
-        background: url(/Recursos/Imágenes/Imagen_Fondo_Header_PC.jpg) no-repeat;
+        background: url(../Recursos/Imágenes/Imagen_Fondo_Header_PC.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
         height: calc(100vh - 80px);
@@ -100,7 +100,7 @@ h2 {
 
 @media (max-width: 858px) {
     section#inicio {
-        background: url(/Recursos/Imágenes/Imagen_Fondo_Header_Movil.jpg) no-repeat;
+        background: url(../Recursos/Imágenes/Imagen_Fondo_Header_Movil.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
         height: calc(100vh - 80px);
