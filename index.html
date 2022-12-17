@@ -12,13 +12,17 @@
 <body>
 <!-- Barra de Navegación -->
     <nav>
+
         <input type="checkbox" id="check">
+
         <label for="check" class="checkbtn">
             <i class="fa-solid fa-bars"></i>
         </label>
+
         <a href="#" class="enlace">
             <img src="/Recursos/Imágenes/minombrelogo.png" alt="logonombre" class="logo">
         </a>
+
         <ul>
             <li><a class="active" href="#">Inicio</a></li>
             <li><a href="#">Mis Proyectos</a></li>
@@ -26,6 +30,7 @@
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Redes Sociales</a></li>
         </ul>
+
     </nav>
 <!-- Fin Barra de Navegación -->
     <header>
@@ -34,6 +39,51 @@
 <!-- Fin Imagen fondo Header con CSS -->
     </header>
     <main>
+<!-- Inicio Carrusel -->
+        <section>
+        <div class="container-all">
+            
+            <input type="radio" id="1" name="image-slide" hidden>
+            <input type="radio" id="2" name="image-slide" hidden>
+            <input type="radio" id="3" name="image-slide" hidden>
+            
+            <div class="slide">
+                
+                <div class="item-slide">
+                    <img src="/Recursos/Imágenes/Diapositiva1.png" alt="Diapositiva1">
+                </div>
+                
+                <div class="item-slide">
+                    <img src="/Recursos/Imágenes/Diapositiva2.png" alt="Diapositiva2">
+                </div>
+                
+                <div class="item-slide">
+                    <img src="/Recursos/Imágenes/Diapositiva3.jpg" alt="Diapositiva3">
+                </div>
+
+            </div>
+
+<!-- Botones con la imagen dentro en pequeño -->
+            <div class="pagination">
+
+                <label class="pagination-item" for="1">
+                    <img src="/Recursos/Imágenes/Diapositiva1.png">
+                </label>
+
+                <label class="pagination-item" for="2">
+                    <img src="/Recursos/Imágenes/Diapositiva2.png">
+                </label>
+
+                <label class="pagination-item" for="3">
+                    <img src="/Recursos/Imágenes/Diapositiva3.jpg">
+                </label>
+<!-- Fin Botones con la imagen dentro en pequeño -->
+
+            </div>
+
+        </div>
+        </section>
+<!-- Fin del Carrusel -->
     </main>
 </body>
 </html>
