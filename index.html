@@ -43,53 +43,177 @@
     <main>
 <!-- Inicio Carrusel -->
 <h2 id="proyectos">Mis Proyectos</h2>
-<section>
-    <div class="container-all">
+        <section id="carrusel">
+            <div class="container-all">
             
-        <input type="radio" id="1" name="image-slide" hidden>
-        <input type="radio" id="2" name="image-slide" hidden>
-        <input type="radio" id="3" name="image-slide" hidden>
+                <input type="radio" id="1" name="image-slide" hidden>
+                <input type="radio" id="2" name="image-slide" hidden>
+                <input type="radio" id="3" name="image-slide" hidden>
             
-        <div class="slide">
+                <div class="slide">
                 
-            <div class="item-slide">
-                <img src="./Recursos/Imágenes/Diapositiva1.png" alt="Diapositiva1">
-                <div class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, rem asperiores impedit possimus laborum ullam aperiam accusantium repudiandae, commodi, quidem nobis nulla. Reiciendis accusantium veniam animi soluta labore recusandae atque.</div>
-            </div>
+                    <div class="item-slide">
+                        <img src="./Recursos/Imágenes/Diapositiva1.png" alt="Diapositiva1">
+                        <div class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, rem asperiores impedit possimus laborum ullam aperiam accusantium repudiandae, commodi, quidem nobis nulla. Reiciendis accusantium veniam animi soluta labore recusandae atque.</div>
+                    </div>
                 
-            <div class="item-slide">
-                <img src="./Recursos/Imágenes/Diapositiva2.png" alt="Diapositiva2">
-                <div class="slide-text">Texto 2</div>
-            </div>
+                    <div class="item-slide">
+                        <img src="./Recursos/Imágenes/Diapositiva2.png" alt="Diapositiva2">
+                        <div class="slide-text">Texto 2</div>
+                    </div>
                 
-            <div class="item-slide">
-                <img src="./Recursos/Imágenes/Diapositiva3.jpg" alt="Diapositiva3">
-                <div class="slide-text">Texto 3</div>
-            </div>
+                    <div class="item-slide">
+                        <img src="./Recursos/Imágenes/Diapositiva3.jpg" alt="Diapositiva3">
+                        <div class="slide-text">Texto 3</div>
+                    </div>
 
-        </div>
+                </div>
 
 <!-- Botones con la imagen dentro en pequeño -->
-        <div class="pagination">
+            <div class="pagination">
 
-            <label class="pagination-item" for="1">
-                <img src="./Recursos/Imágenes/Diapositiva1.png">
-            </label>
+                <label class="pagination-item" for="1">
+                    <img src="./Recursos/Imágenes/Diapositiva1.png">
+                </label>
 
-            <label class="pagination-item" for="2">
-                <img src="./Recursos/Imágenes/Diapositiva2.png">
-            </label>
+                <label class="pagination-item" for="2">
+                    <img src="./Recursos/Imágenes/Diapositiva2.png">
+                </label>
 
-            <label class="pagination-item" for="3">
-                <img src="./Recursos/Imágenes/Diapositiva3.jpg">
-            </label>
+                <label class="pagination-item" for="3">
+                    <img src="./Recursos/Imágenes/Diapositiva3.jpg">
+                </label>
 <!-- Fin Botones con la imagen dentro en pequeño -->
 
+            </div>
+
+        </div>
+    </section>
+<!-- Fin del Carrusel -->
+
+<!-- Inicio de barras de progreso -->
+<h2 id="habilidades">Mis Habilidades</h2>
+<section class="skills">
+    <div class="container-skill">
+        <div class="skill-box">
+            <span class="title">HTML</span>
+
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
         </div>
 
+        <div class="skill-box">
+            <span class="title">CSS</span>
+
+            <div class="skill-bar">
+                <span class="skill-per css">
+                    <span class="tooltip">80%</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">JavaScript</span>
+
+            <div class="skill-bar">
+                <span class="skill-per js">
+                    <span class="tooltip">En Progreso</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">React</span>
+
+            <div class="skill-bar">
+                <span class="skill-per react">
+                    <span class="tooltip">En Progreso</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">Node</span>
+
+            <div class="skill-bar">
+                <span class="skill-per node">
+                    <span class="tooltip">En Progreso</span>
+                </span>
+            </div>
+        </div>
     </div>
 </section>
-<!-- Fin del Carrusel -->
+<!-- Fin de barras de progreso -->
+
+<!-- Inicio de Formulario de Contacto -->
+<h2 id="contacto">Contacto</h2>
+<section class="formulario">
+    <div class="container-form">
+        <h3 class="form-title">Formulario</h3>
+        <form action="#">
+
+            <div class="main-user-info">
+
+                <div class="user-input-box">
+                    <label for="nombre">Nombre</label>
+                    <input type="text"
+                    required
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text"
+                    required
+                    id="apellidos"
+                    name="apellidos"
+                    placeholder="Escribe tus apellidos">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel"
+                    required
+                    id="telefono"
+                    name="telefono"
+                    placeholder="Escribe tu tlfn">
+                </div>
+                
+                <div class="user-input-box">
+                    <label for="github">Tag de GitHub</label>
+                    <input type="name"
+                    id="github"
+                    name="github"
+                    placeholder="Escribe tu tag de github">
+                </div>
+
+            </div>
+
+            <div class="question-box">
+                <span class="question-title">¿Cómo me conociste?</span>
+                <div class="question-options">
+                    <input type="radio" name="question" id="universidad">
+                    <label for="universidad">Universidad</label>
+                    <input type="radio" name="question" id="keepcoding">
+                    <label for="keepcoding">Keepcoding kick-off</label>
+                    <input type="radio" name="question" id="colegio">
+                    <label for="colegio">Colegio</label>
+                    <input type="radio" name="question" id="github">
+                    <label for="github">En GitHub</label>
+                </div>
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" value="Guardar">
+            </div>
+        </form>
+    </div>
+</section>
+<!-- Fin de Formulario de Contacto -->
     </main>
 </body>
 </html>
