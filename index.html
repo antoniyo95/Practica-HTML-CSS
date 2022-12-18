@@ -181,6 +181,8 @@
                     required
                     id="telefono"
                     name="telefono"
+                    maxlength="9"
+                    pattern="[0-9]+"
                     placeholder="Escribe tu tlfn">
                 </div>
                 
@@ -189,7 +191,8 @@
                     <input type="name"
                     id="github"
                     name="github"
-                    placeholder="Escribe tu tag de github">
+                    pattern="@[A-Za-z] {0-9}+"
+                    placeholder="@tutaggithub">
                 </div>
 
             </div>
@@ -197,15 +200,26 @@
             <div class="question-box">
                 <span class="question-title">¿Cómo me conociste?</span>
                 <div class="question-options">
-                    <input type="radio" name="question" id="universidad">
-                    <label for="universidad">Universidad</label>
-                    <input type="radio" name="question" id="keepcoding">
-                    <label for="keepcoding">Keepcoding kick-off</label>
-                    <input type="radio" name="question" id="colegio">
-                    <label for="colegio">Colegio</label>
-                    <input type="radio" name="question" id="github">
-                    <label for="github">En GitHub</label>
+
+                    <label for="universidad">
+                        <input type="radio" name="question" id="universidad">Universidad</label>
+                    
+                    <label for="keepcoding">
+                        <input type="radio" name="question" id="keepcoding">Keepcoding kick-off</label>
+
+                    
+                    <label for="colegio">
+                        <input type="radio" name="question" id="colegio">Colegio</label>
+
+                    
+                    <label for="github-btn">
+                        <input type="radio" name="question" id="github-btn">En GitHub</label>
+                        
                 </div>
+                
+                <p><label class="descriptiontext" for="descripcion">Descripción:</label></p>
+                <textarea name="descripcion" id="descriptionarea" rows="8" placeholder="Máx. 180 caracteres"></textarea>
+
             </div>
             <div class="form-submit-btn">
                 <input type="submit" value="Guardar">
@@ -215,5 +229,22 @@
 </section>
 <!-- Fin de Formulario de Contacto -->
     </main>
+<!-- Inicio del Footer -->
+<footer>
+    <section class="redes-sociales" id="redes-sociales">
+
+        <div class="social-icons-container">
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+        </div>
+
+        <span class="copyright">&copy;2022, Antonio Luis Martínez Perales, Todos los derechos reservados.</span>
+    </section>
+</footer>
+<!-- Fin del Footer -->
 </body>
 </html>

@@ -21,7 +21,7 @@ nav {
 .logo {
     padding: 2px;
     height: 40px;
-    background-color: #F1F6F5;
+    background-color: white;
     border-radius: 4px;
 }
 
@@ -107,6 +107,17 @@ h2 {
     .skill-per .tooltip {
         font-size: 14px;
     }
+
+    .question-options {
+        display: flex;
+    }
+
+    .user-input-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        padding-bottom: 15px;
+    }
 }
     /* Fin Media Querie PC */
 
@@ -179,8 +190,9 @@ h2 {
     }
 
     .user-input-box {
-        margin-bottom: 12px;
         width: 100%;
+        justify-content: space-between;
+        padding: 10px 0;
     }
 
     .user-input-box:nth-child(2n) {
@@ -188,7 +200,7 @@ h2 {
     }
 
     .question-options {
-        display: inline;
+        display: grid;
         justify-content: space-between;
         width: 100%;
     }
@@ -470,13 +482,6 @@ section.formulario {
     justify-content: end;
 }
 
-.user-input-box {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    padding-bottom: 15px;
-}
-
 .user-input-box label {
     width: 95%;
     color: white;
@@ -496,14 +501,13 @@ section.formulario {
 .question-title {
     color: white;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
     border-bottom: 1px solid white;
 }
 
 .question-options {
     margin: 15px 0;
     color: white;
-    display: flex;
 }
 
 .question-options label {
@@ -512,6 +516,20 @@ section.formulario {
 
 .question-options label, .question-options input, .form-submit-btn input {
     cursor: pointer;
+}
+
+.descriptiontext {
+    color: #F1F6F5;
+    font-size: 20px;
+}
+
+#descriptionarea {
+    margin-top: 10px;
+    width: 100%;
+    resize: none;
+    border-radius: 7px;
+    outline: 1px solid grey;
+    padding: 0 10px;
 }
 
 .form-submit-btn {
@@ -536,3 +554,68 @@ section.formulario {
 }
 
 /* Fin de Formulario de Contacto */
+
+/* Inicio del Footer */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #472183;
+    border-top: solid #82C3EC 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icons-container, .footer-menud-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #82C3EC;
+    background-image: url(/Recursos/Imágenes/instagram-logo.jpg);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover {
+    background-color: #82C3EC;
+}
+
+.social-icon:nth-of-type(2) {
+    background-image: url(/Recursos/Imágenes/Linkedin-logo.png);
+}
+
+.social-icon:nth-of-type(3) {
+    background-image: url(/Recursos/Imágenes/Twitter-logo.png);
+}
+
+.social-icon:nth-of-type(4) {
+    background-image: url(/Recursos/Imágenes/youtube-logo.png);
+}
+
+.social-icon:nth-of-type(5) {
+    background-image: url(/Recursos/Imágenes/Github-logo.png);
+}
+
+.social-icon:nth-of-type(6) {
+    background-image: url(/Recursos/Imágenes/facebook-logo.png);
+}
+
+.copyright {
+    color: #82C3EC;
+}
+
+/* Fin del Footer */
