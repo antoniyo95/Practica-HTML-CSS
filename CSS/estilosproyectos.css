@@ -1,0 +1,111 @@
+body {
+    background-color: #F1F6F5;
+    font-family: "Euclid Circular",verdana,arial,sans-serif;
+}
+
+/* CSS para Barra de Navegación e imagen de fondo */
+
+nav {
+    background: #472183;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+.projects-title {
+    float: right;
+    color: #F1F6F5;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav ul {
+    margin-right: 20px;
+    padding-top: 10px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: #F1F6F5;
+    font-size: 18px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background: #4B56D2;
+    transition: .5s;
+}
+
+.video {
+    padding-top: 80px;
+    width: 100%;
+    height: 700px;
+    pointer-events: none;
+}
+
+h2 {
+    color: #F1F6F5;
+    font-size: 40px;
+    background-color: #472183;
+    padding: 20px;
+    border: solid #82C3EC;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.myprojects {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 80px 150px 80px 80px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.video1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.video2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.video3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.video4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.video5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}

@@ -335,6 +335,27 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
 
 /* Fin Carrusel */
 
+/* Inicio Botón Proyectos */
+
+.projects {
+    position: relative;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.project-link {
+    color: #F1F6F5;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #4B56D2;
+    text-decoration-line: none;
+}
+
+.project-link:hover {
+    background-color: #472183;
+}
+
 /* Inicio Barra de Progreso */
 
 section.skills {
@@ -583,7 +604,7 @@ footer {
     width: 50px;
     border-radius: 50px;
     border: 1px solid #82C3EC;
-    background-image: url(/Recursos/Imágenes/instagram-logo.jpg);
+    background-image: url(../Recursos/Imágenes/instagram-logo.jpg);
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -595,23 +616,23 @@ footer {
 }
 
 .social-icon:nth-of-type(2) {
-    background-image: url(/Recursos/Imágenes/Linkedin-logo.png);
+    background-image: url(../Recursos/Imágenes/Linkedin-logo.png);
 }
 
 .social-icon:nth-of-type(3) {
-    background-image: url(/Recursos/Imágenes/Twitter-logo.png);
+    background-image: url(../Recursos/Imágenes/Twitter-logo.png);
 }
 
 .social-icon:nth-of-type(4) {
-    background-image: url(/Recursos/Imágenes/youtube-logo.png);
+    background-image: url(../Recursos/Imágenes/youtube-logo.png);
 }
 
 .social-icon:nth-of-type(5) {
-    background-image: url(/Recursos/Imágenes/Github-logo.png);
+    background-image: url(../Recursos/Imágenes/Github-logo.png);
 }
 
 .social-icon:nth-of-type(6) {
-    background-image: url(/Recursos/Imágenes/facebook-logo.png);
+    background-image: url(../Recursos/Imágenes/facebook-logo.png);
 }
 
 .copyright {
